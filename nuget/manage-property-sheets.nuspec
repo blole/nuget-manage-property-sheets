@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+	<metadata>
+		<id>manage-property-sheets</id>
+		<version>1.0.1</version>
+		<authors>blole</authors>
+		<owners>blole</owners>
+		<description>powershell functions to add/remove property sheets in visual studio projects</description>
+		<projectUrl>https://github.com/blole/nuget-manage-property-sheets</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<developmentDependency>true</developmentDependency>
+	</metadata>
+	<files>
+		<file src="..\*.ps1" target="tools" />
+	</files>
+</package>
