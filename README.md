@@ -1,10 +1,10 @@
 # nuget-manage-property-sheets
-PowerShell functions to add/remove property sheets in Visual Studio projects
+PowerShell-functions to add/remove property sheets in Visual Studio projects.
 
-# Example nuget application
+## Example nuget application
 If you want to install a regular property sheet `tools\sheet.props` with your nuget package, add this to your corresponding files:
 
-###### x-package.nuspec
+###### your-package.nuspec
 ```xml
 <dependencies>
 	<dependency id="manage-property-sheets" version="[1,2)" />
